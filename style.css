@@ -1,0 +1,35 @@
+/**
+ * \copyright (c) 2018 Josh Klodnicki
+ */
+
+.dumb-terminal {
+	border:           1px solid gray;
+	padding:          0.5em;
+	overflow-y:       auto;
+	color:            lightgray;
+	background-color: black;
+	font-family:      monospace,monospace;
+	line-height:      normal;
+	white-space:      pre-wrap;
+	word-break:       break-all;
+	cursor:           default;
+}
+
+.dumb-terminal .dumb-term-line  {
+	min-height: 1em !important;
+}
+
+.dumb-terminal .dumb-term-input {
+	width:            100%    !important;
+	margin:           0       !important;
+	outline:          none    !important;
+	border:           none    !important;
+	border-radius:    0       !important;
+	padding:          0       !important;
+	color:            inherit !important;
+	background-color: inherit !important;
+	font:             inherit !important;
+	cursor:           inherit !important;
+}
+
+/* vim: set ft=css.doxygen: */
